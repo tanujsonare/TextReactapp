@@ -1,7 +1,7 @@
 {
   "main.css": "/TextReactapp/static/css/main.288e946a.chunk.css",
-  "main.js": "/TextReactapp/static/js/main.1fa8597c.chunk.js",
-  "main.js.map": "/TextReactapp/static/js/main.1fa8597c.chunk.js.map",
+  "main.js": "/TextReactapp/static/js/main.9cee829e.chunk.js",
+  "main.js.map": "/TextReactapp/static/js/main.9cee829e.chunk.js.map",
   "static/js/1.435a28ac.chunk.js": "/TextReactapp/static/js/1.435a28ac.chunk.js",
   "static/js/1.435a28ac.chunk.js.map": "/TextReactapp/static/js/1.435a28ac.chunk.js.map",
   "static/js/2.90e04152.chunk.js": "/TextReactapp/static/js/2.90e04152.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/TextReactapp/static/js/runtime~main.17f11688.js.map",
   "static/css/main.288e946a.chunk.css.map": "/TextReactapp/static/css/main.288e946a.chunk.css.map",
   "index.html": "/TextReactapp/index.html",
-  "precache-manifest.8896647f76dac17af9263c5b6dbfa816.js": "/TextReactapp/precache-manifest.8896647f76dac17af9263c5b6dbfa816.js",
+  "precache-manifest.8997203ba894eeb73c154c0419eab7bb.js": "/TextReactapp/precache-manifest.8997203ba894eeb73c154c0419eab7bb.js",
   "service-worker.js": "/TextReactapp/service-worker.js"
 }
