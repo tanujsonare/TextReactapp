@@ -13,6 +13,7 @@ export default function Navbar(props) {
     //     color: "black",
     //     borderColor: "white"
     // }
+    
     return (
         <nav className={`navbar navbar-expand-lg navbar-${props.mode === true ? "dark" : "light"} bg-${props.mode === true ? "dark" : "light"}`}>
             <div className="container-fluid">
@@ -32,6 +33,12 @@ export default function Navbar(props) {
                             <a className="nav-link disabled" href='/'><b>{props.user}</b></a>
                         </li>
                     </ul>
+                    {/* <div className="d-flex">
+                        <div className="bg-primary rounded mx-2" style={{height:'20px', width:'20px'}}></div>
+                        <div className="bg-info rounded mx-2" style={{height:'20px', width:'20px'}}></div>
+                        <div className="bg-success rounded mx-2" style={{height:'20px', width:'20px'}}></div>
+                        <div className="bg-dark rounded mx-2" style={{height:'20px', width:'20px'}}></div>
+                    </div> */}
                     <div className="form-check form-switch">
                         <input className="form-check-input" type="checkbox" onClick={props.darkMode} id="flexSwitchCheckDefault" style={props.mode === true? {backgroundColor: "grey", color: "black", borderColor: "white"}: {backgroundColor: "grey", color: "black", borderColor: "white"}}/>
                         <label className={`form-check-label text-${props.mode === true ? "light" : "dark"}`} htmlFor="flexSwitchCheckDefault">{props.mode === true ? "Enable Light Mode" : "Enable Dark Mode"}</label>
